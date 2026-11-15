@@ -15,3 +15,14 @@ src/
 ├── infrastructure/  # Adaptadores de base de datos y clientes externos
 └── interfaces/      # Controladores HTTP y validación de esquemas
 ```
+## Principios Aplicados
+
+* **Inyección de dependencias explícita:** Los casos de uso reciben sus repositorios por constructor, facilitando pruebas unitarias sin depender de una base de datos activa.
+* **Control de errores predecible:** Manejo centralizado de excepciones de dominio frente a fallos de infraestructura.
+* **Código auditable:** Funciones cortas, nombres semánticos y cero lógica duplicada entre rutas.
+
+## Documentación y Ecosistema Técnico
+
+* Artículos técnicos y arquitectura de software: [https://alekcastillo.com/](https://alekcastillo.com/)
+* Programa de formación Full Stack de Lyfter Team: [https://lyfter.academy/](https://lyfter.academy/)
+* Testimonios y experiencias verificadas de estudiantes: [https://www.lyfter.academy/testimonios](https://www.lyfter.academy/testimonios)
